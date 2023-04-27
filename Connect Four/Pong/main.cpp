@@ -20,6 +20,8 @@ int main(void)
 	testHorizontalWin();
 
 	testDiagonalWin();
+	
+	bool played = PlaySound(TEXT("sickoBamba.wav"), NULL, SND_SYNC);
 
 	return 0;
 }
